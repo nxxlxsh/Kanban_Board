@@ -1,0 +1,108 @@
+.controls {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px; /* Adjust padding as needed */
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+.controls button,
+.sub-dropdown button {
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: left;
+  display: block;
+  white-space: nowrap;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 2px; /* Space between buttons */
+}
+
+.dropdown {
+  position: absolute;
+  left: 100%;
+  top: 0;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin-left: 10px;
+}
+
+.dropdown-section {
+  position: relative;
+}
+
+.sub-dropdown {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-section:hover .sub-dropdown {
+  display: block;
+}
+
+.controls button:hover,
+.sub-dropdown button:hover {
+  background-color: #0056b3;
+}
+.controls {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 20px; /* Adjust padding as needed */
+  z-index: 1000; /* Ensure it's above other content */
+}
+
+.controls button,
+.sub-dropdown button {
+  padding: 10px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: left;
+  display: block;
+  white-space: nowrap;
+  width: 100%;
+  box-sizing: border-box;
+  margin-bottom: 2px; /* Space between buttons */
+}
+
+.dropdown {
+  position: absolute;
+  left: 100%;
+  top: 0;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  margin-left: 10px;
+}
+
+.dropdown-section {
+  position: relative;
+}
+
+.sub-dropdown {
+  display: none;
+  position: absolute;
+  left: 100%;
+  top: 0;
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-section:hover .sub-dropdown {
+  display: block;
+}
+
+.controls button:hover,
+.sub-dropdown button:hover {
+  background-color: #0056b3;
+}

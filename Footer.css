@@ -1,0 +1,47 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  gap: 20px; /* Adjust the gap between the image and the information as needed */
+  background: #f8f9fa; /* Example background color; change as needed */
+}
+
+.footer-left,
+.footer-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-pic {
+  max-width: 150px; /* Adjust the size of the profile picture as needed */
+  border-radius: 80%; /* Makes the image circular */
+  margin-right: 20px; /* Space between the image and the text, adjust as needed */
+}
+
+.information-section {
+  text-align: center;
+}
+
+.information-section p {
+  margin: 5px 0; /* Adjust spacing between lines of text as needed */
+}
+
+/* If you want the footer to stick to the bottom of the page: */
+/* Make sure that the parent of <footer> (such as <body>) has min-height: 100vh; */
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Add this if you want the footer to always stick to the bottom */
+/* Only necessary if there's not enough content to naturally push it down */
+.footer {
+  margin-top: auto;
+}
+
+.footer-link {
+  margin-right: 15px; /* Adjust the space as needed */
+}
